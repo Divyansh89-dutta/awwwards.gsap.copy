@@ -39,13 +39,15 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-
+nav a {
+    font-size: 10vh;
+}
 .nav-items {
     position: fixed;
     top: 2em;
     left: 40%;
     display: flex;
-    gap: 0.25em;
+    gap: 3.25em;
 }
 
 nav a, .nav-items a {
@@ -59,6 +61,7 @@ nav a, .nav-items a {
 }
 
 .gallery {
+    margin-top: 30vh;
     position: relative;
     width: 100%;
     display: flex;
